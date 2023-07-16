@@ -1,6 +1,10 @@
 import Image from "next/image";
-import { Header } from "@/constants";
+import { Header, Container } from "@/constants";
 
 export default function Home() {
-  return <div className="container">Ciao</div>;
+  return (
+    <Container>
+      <Header />
+    </Container>
+  )
 }
